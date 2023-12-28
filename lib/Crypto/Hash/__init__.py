@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+* - - coding: utf-8 -*-
 #
 # ===================================================================
 # The contents of this file are dedicated to the public domain.  To
@@ -174,3 +174,4 @@ def _sha512_new(*args):
     return SHA512.new(*args)
 _new_funcs['SHA512'] = _new_funcs['sha512'] = _sha512_new
 del _sha512_new
+ 
