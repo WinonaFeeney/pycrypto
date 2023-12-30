@@ -1,9 +1,9 @@
 2.7a1
 =====
-	* Experimental release.  This introduces a new API for AEAD modes, and
+	##Experimental release.  This introduces a new API for AEAD modes, and
 	  makes a few other minor API changes.  These APIs should be considered
 	  experimental, and may be changed before the final release.
-	* New API for authenticated encryption with associated data (AEAD):
+	  New API for authenticated encryption with associated data (AEAD):
 	  - New block cipher modes:
 	    - MODE_CCM
 	    - MODE_EAX
@@ -770,3 +770,4 @@ available in the standard Python distribution.
 distribution.
 
         * Various bugs fixed.
+ 
